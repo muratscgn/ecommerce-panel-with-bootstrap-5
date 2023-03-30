@@ -1,0 +1,40 @@
+.sidebar {
+    position: fixed;
+    background-color: rgb(68, 76, 90);
+    height: 100%;
+    padding-top: 80px;
+    width: 250px;
+}
+
+.sidebar li a {
+    color: #2A2F36;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.sidebar li a:hover {
+    color: white;
+}
+
+.sidebar li a i {
+    margin-right: 7px;
+}
+
+.mainArea {
+    margin-left: 260px;
+}
+
+.iconColor {
+    color: #6d6d6d;
+}
+
+@media only screen and (max-width :600px) {
+    .sidebar {
+        left: -251px;
+    }
+
+    .mainArea {
+        margin-left: 0px;
+    }
+}
