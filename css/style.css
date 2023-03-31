@@ -29,6 +29,15 @@
     color: #6d6d6d;
 }
 
+.btn-slide svg {
+    width: 25px;
+    height: 25px;
+}
+
+.leftArrange {
+    left: 0px !important;
+}
+
 @media only screen and (max-width :600px) {
     .sidebar {
         left: -251px;
